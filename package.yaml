@@ -25,6 +25,9 @@ dependencies:
 - bytestring-mmap
 - ghc-prim
 
+ghc-options:
+- -Wall
+
 library:
   source-dirs: src
 
