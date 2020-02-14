@@ -1,0 +1,1 @@
+# counting-chars-ghc-simd

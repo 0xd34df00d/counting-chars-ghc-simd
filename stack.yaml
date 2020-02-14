@@ -1,0 +1,5 @@
+resolver: lts-14.25
+packages:
+- .
+extra-deps:
+- bytestring-mmap-0.2.2
