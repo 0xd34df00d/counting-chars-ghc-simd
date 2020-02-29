@@ -23,6 +23,7 @@ dependencies:
 - base >= 4.7 && < 5
 - bytestring
 - bytestring-mmap
+- inline-asm >= 0.4.0.0
 - ghc-prim
 
 ghc-options:
