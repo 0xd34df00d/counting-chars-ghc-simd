@@ -34,9 +34,7 @@ loop: |] <> unrolls "i" [1..8] [
   vmovdqa {(i - 1) * 0x10}({ptr}), %xmm{i}
   |], [asm|
   vpcmpestrm $10, %xmm15, %xmm{i}
-  vmovdqa %xmm0, %xmm{i}
-  |], [asm|
-  vmovq %xmm{i}, %r{i + 7}
+  vmovq %xmm0, %r{i + 7}
   |], [asm|
   popcnt %r{i + 7}, %r{i + 7}
   |], [asm|
