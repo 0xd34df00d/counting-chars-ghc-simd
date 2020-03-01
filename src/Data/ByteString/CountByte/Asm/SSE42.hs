@@ -35,7 +35,6 @@ loop: |] <> unrolls "i" [1..8] [
   |], [asm|
   vpcmpestrm $10, %xmm15, %xmm{i}
   vmovq %xmm0, %r{i + 7}
-  |], [asm|
   popcnt %r{i + 7}, %r{i + 7}
   |], [asm|
   add %r{i + 7}, {cnt}
