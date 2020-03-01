@@ -3,3 +3,6 @@ packages:
 - .
 extra-deps:
 - bytestring-mmap-0.2.2
+- inline-asm-0.4.0.0
+- github: 0xd34df00d/timeit
+  commit: c2e44a8b07df6b509958e15503773ec7a8599335
